@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Tecnológica para Despliegue Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: #004aad;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+        nav {
+            background: #022c63;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #004aad;
+        }
+        footer {
+            background: #004aad;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .btn {
+            display: inline-block;
+            background: #004aad;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Requerimientos de Plataforma Tecnológica para el Despliegue de una Aplicación Web</h1>
+    <p>Hardware • Software • Redes • Protocolos • Medios de Transmisión</p>
+</header>
+
+<nav>
+    <a href="#hardware">Hardware</a>
+    <a href="#software">Software</a>
+    <a href="#redes">Redes</a>
+    <a href="#protocolos">Protocolos</a>
+    <a href="#medios">Medios de transmisión</a>
+</nav>
+
+<section id="hardware">
+    <h2>Requerimientos de Hardware</h2>
+    <p>Para desplegar una aplicación web es necesario disponer de una infraestructura física que soporte el rendimiento, acceso simultáneo y disponibilidad del sistema. Entre los principales componentes se encuentran:</p>
+    <ul>
+        <li><strong>Servidor físico o virtual:</strong> Capaz de ejecutar servicios web, bases de datos y procesos de backend.</li>
+        <li><strong>Procesador:</strong> Mínimo 4 núcleos, recomendado 8 o más para alto tráfico.</li>
+        <li><strong>Memoria RAM:</strong> 8 GB mínimo; recomendado 16 GB para aplicaciones de producción.</li>
+        <li><strong>Almacenamiento:</strong> SSD para mayor velocidad de lectura/escritura.</li>
+        <li><strong>Fuente de alimentación y sistema de refrigeración:</strong> Garantizan disponibilidad y estabilidad.</li>
+    </ul>
+</section>
+
+<section id="software">
+    <h2>Requerimientos de Software</h2>
+    <p>El sistema operativo debe corresponder con las necesidades del servidor y de la plataforma seleccionada. Los más comunes son:</p>
+    <ul>
+        <li><strong>Linux (Ubuntu Server, CentOS, Debian):</strong> Alta estabilidad, seguridad, ideal para servidores.</li>
+        <li><strong>Windows Server:</strong> Usado cuando se requiere compatibilidad con tecnologías .NET.</li>
+    </ul>
+    <p>Además, se requieren:</p>
+    <ul>
+        <li><strong>Servidor web:</strong> Apache, Nginx o IIS.</li>
+        <li><strong>Entorno de ejecución:</strong> Node.js, PHP, Python, Java, según la tecnología del proyecto.</li>
+        <li><strong>SGBD:</strong> MySQL, PostgreSQL, SQL Server, MongoDB.</li>
+        <li><strong>Herramientas de despliegue:</strong> Docker, Git, CI/CD, contenedores o máquinas virtuales.</li>
+    </ul>
+</section>
+
+<section id="redes">
+    <h2>Conceptos de Redes y Tipos de IP</h2>
+    <p>Para el despliegue de la aplicación se requiere conocer elementos clave de networking:</p>
+    <ul>
+        <li><strong>IP Privada:</strong> Direcciones usadas para la comunicación interna dentro de una red local.</li>
+        <li><strong>IP Pública:</strong> Direcciones accesibles desde internet. Necesaria para publicar una aplicación.</li>
+        <li><strong>IPv4:</strong> Formato tradicional (ej. 192.168.0.1).</li>
+        <li><strong>IPv6:</strong> Nueva versión con mayor capacidad de direcciones.</li>
+        <li><strong>DNS:</strong> Convierte nombres de dominio en direcciones IP.</li>
+        <li><strong>Firewall y seguridad:</strong> Controla acceso y protege el servidor.</li>
+    </ul>
+</section>
+
+<section id="protocolos">
+    <h2>Dos Grandes Familias de Protocolos</h2>
+    <p>En la transmisión y recepción de datos existen dos familias principales de protocolos:</p>
+    <ul>
+        <li><strong>Protocolos TCP/IP:</strong> Garantizan una comunicación confiable, verificada y ordenada.</li>
+        <li><strong>Protocolos UDP:</strong> Envío rápido sin verificación, usado para streaming y juegos online.</li>
+    </ul>
+    <p>Organizaciones encargadas de estándares:</p>
+    <ul>
+        <li><strong>IEEE:</strong> Define estándares de redes como Ethernet y WiFi.</li>
+        <li><strong>IETF:</strong> Define protocolos de internet (TCP/IP, HTTP, etc.).</li>
+        <li><strong>ISO:</strong> Estructuras como el modelo OSI.</li>
+    </ul>
+</section>
+
+<section id="medios">
+    <h2>Medios de Transmisión</h2>
+    <p>Los datos se transmiten mediante medios guiados y no guiados:</p>
+    <h3>Guiados</h3>
+    <ul>
+        <li>Par trenzado (Ethernet)</li>
+        <li>Fibra óptica</li>
+        <li>Coaxial</li>
+    </ul>
+
+    <h3>No guiados</h3>
+    <ul>
+        <li>Radiofrecuencia</li>
+        <li>Microondas</li>
+        <li>Infrarrojo</li>
+    </ul>
+</section>
+
+<footer>
+    <p>Landing Page — Plataforma Tecnológica para Despliegue Web</p>
+</footer>
+
+</body>
+</html>
